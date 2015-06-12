@@ -9,19 +9,19 @@ $( document ).ready(function() {
     {
       if(i%3 == 0 && i%5 == 0)
       {
-        $(".list").append("<li>FizBuzz</li>");
+        $("#list").append("<li>FizBuzz</li>");
       }
       else if(i%3 == 0)
       {
-        $(".list").append("<li>Fiz</li>");
+        $("#list").append("<li>Fiz</li>");
       }
       else if(i%5 == 0)
       {
-        $(".list").append("<li>Buzz</li>");
+        $("#list").append("<li>Buzz</li>");
       }
       else
       {
-        $(".list").append("<li>" + i + "</li>");
+        $("#list").append("<li>" + i + "</li>");
       }
     } 
 });
