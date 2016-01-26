@@ -28,7 +28,7 @@ $( document ).ready(function() {
   
   
   function runFizzBuzz(MAX){
-    myList.empty();
+    $(myList).empty();
     for(i = 1; i <= MAX; i++)
     {
       if(i%3 == 0 && i%5 == 0)
